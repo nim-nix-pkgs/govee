@@ -86,6 +86,34 @@
       "srcDir": "src",
       "backend": "c",
       "ref": "refs/tags/1.0.2"
+    },
+    {
+      "name": "govee",
+      "version": "1.0.2",
+      "author": "t-h-rk-turner",
+      "desc": "A Nim wrapper for the Govee API.",
+      "license": "MIT",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.0.0",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.0.0"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "src",
+      "backend": "c",
+      "ref": "refs/tags/1.0.3"
     }
   ],
   "description": "A Nim wrapper for the Govee API.",
@@ -97,6 +125,7 @@
     "refs/tags/1.0.0",
     "refs/tags/1.0.1",
     "refs/tags/1.0.2",
+    "refs/tags/1.0.3",
     ""
   ],
   "heads": [
